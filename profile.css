@@ -1,0 +1,51 @@
+body{
+    font-family: Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display :block;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.about, .skills, .projects, .contact{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    background-color: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 3px solid #4CAF50;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px 0;
+}
+
